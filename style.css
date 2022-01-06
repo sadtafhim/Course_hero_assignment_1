@@ -1,19 +1,24 @@
 body{
     font-family: 'PT Serif', serif;
 }
+body p{
+    color: grey;
+}
 .widths{
     width: 50%;
-    padding-left: 50px;
+    margin-left: 17%;
+    margin-bottom: 3%;
 }
 .section1{
     width: 80%;
-    padding-right: 5px;
     display: flex;
-    
+    padding-left: 50px;
     margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
 }
 .section1 img{
-    width: 60%;
+    width: 80%;
 }
 .initial_part{
     font-size: 20px;
@@ -51,14 +56,16 @@ body{
 .section3{
     width: 75%;
     display: flex;
-    margin: 20px,10%
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
 }
 .box1{
     padding: 3%;
     border-radius: 10px;
     background-color:powderblue;
     width: 40%;
-    margin: 5% 5%;
+    margin: 2% 2%;
     
 }
 .box2{
@@ -66,7 +73,7 @@ body{
     border-radius: 10px;
     background-color:peachpuff;
     width: 40%;
-    margin: 5% 5%;
+    margin: 2% 2%;
     
 
 }
@@ -75,15 +82,21 @@ body{
     border-radius: 10px;
     background-color: wheat;
     width: 40%;
-    margin: 5% 5%;
+    margin: 2% 2%;
+}
+.section3_header{
+    text-align: left;
 }
 .boxImage{
-    width: 75%
+    width: 50%
 }
 .section4_5{
-    width: 75%;
+    width: 80%;
     display: flex;
-    margin: 20px,10%
+    margin-bottom: 3%;
+}
+.i4_5left{
+    padding-left: 50px;
 }
 .section4_5 img{
     background-image:url(images/shapes/shape-1.png);
@@ -93,4 +106,16 @@ body{
 }
 .headers_section4_5{
     font-size: 35px;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+#section6{
+    text-align: center;
+}
+footer span{
+    color: violet;
 }
