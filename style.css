@@ -17,10 +17,13 @@ body{
     margin-right: 250px;
 }
 .headers{
-    font-size: 25px;
+    font-size: 33px;
     border-left: 5px solid;
     border-image: linear-gradient(black,blue) 10%;
     padding-left: 2%;
+}
+.coloring_heads{
+    color: tomato;
 }
 #First_paragraph{
     padding-bottom: 2%;
@@ -36,4 +39,40 @@ body{
 .inside_texts{
     margin-top: 7% ;
     font-size: 15px;
+}
+#section2{
+    font-size: 45px;
+    text-align: center;
+}
+.section3{
+    width: 75%;
+    display: flex;
+    margin: 20px,10%
+}
+.box1{
+    padding: 3%;
+    border-radius: 10px;
+    background-color:powderblue;
+    width: 40%;
+    margin: 5% 5%;
+    
+}
+.box2{
+    padding: 3%;
+    border-radius: 10px;
+    background-color:peachpuff;
+    width: 40%;
+    margin: 5% 5%;
+    
+
+}
+.box3{
+    padding: 3%;
+    border-radius: 10px;
+    background-color: wheat;
+    width: 40%;
+    margin: 5% 5%;
+}
+.boxImage{
+    width: 75%
 }
