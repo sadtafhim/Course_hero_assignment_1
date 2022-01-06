@@ -94,16 +94,23 @@ body p{
     width: 80%;
     display: flex;
     margin-bottom: 3%;
+    
 }
-.i4_5left{
-    padding-left: 50px;
+.section4_5 h2{
+    font-weight: 1100;
 }
+
 .section4_5 img{
     background-image:url(images/shapes/shape-1.png);
-    background-repeat: no-repeat; 
-    background-position: left;
-    width: 80%
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 110%;
+    width: 90%
 }
+.section4_5 p{
+    padding-bottom: 1%;
+}
+
 .headers_section4_5{
     font-size: 35px;
 }
@@ -115,6 +122,10 @@ footer{
 }
 #section6{
     text-align: center;
+    
+}
+.section7 p{
+    padding-bottom: 1%;
 }
 footer span{
     color: violet;
