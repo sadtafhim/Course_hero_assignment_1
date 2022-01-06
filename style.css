@@ -1,6 +1,10 @@
 body{
     font-family: 'PT Serif', serif;
 }
+.widths{
+    width: 50%;
+    padding-left: 50px;
+}
 .section1{
     width: 80%;
     padding-right: 5px;
@@ -75,4 +79,18 @@ body{
 }
 .boxImage{
     width: 75%
+}
+.section4_5{
+    width: 75%;
+    display: flex;
+    margin: 20px,10%
+}
+.section4_5 img{
+    background-image:url(images/shapes/shape-1.png);
+    background-repeat: no-repeat; 
+    background-position: left;
+    width: 80%
+}
+.headers_section4_5{
+    font-size: 35px;
 }
